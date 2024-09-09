@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgb(218, 177, 73);
+
+}
+
+.container2 .container4{
+    background-color: rgb(218, 177, 73);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+}
+
+ h1{
+    z-index: 11;
+    align-items:center;
+    justify-content: center;
+    color: rgb(22, 17, 5);
+    font-size: 45px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    flex-direction: row;
+
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.container{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    
+} 
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    z-index: 11;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.1s;
+    background-color: rgba(0, 0, 0, 0.659);
+    position: fixed;
+    box-shadow: sienna;
+}
+
+.logo{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: none;
+
+    }
+
+.item-nav{
+    width: 130px;
+    font-weight: 500;
+    z-index: 11;
+}
+.menu li a:hover{
+    color: rgb(26, 17, 17);
+    z-index: 11;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    z-index: 11;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sobre{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    z-index: 11;
+}
+.menu li{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0.5;
+    z-index: 11;
+}
+.menu li a{
+    display: block;
+    padding: 12px;
+    align-items: center;
+    z-index: 11;
+
+ }
+
+
+
+@keyframes fade{
+    0%{
+        opacity: 1;
+    }
+  33%  {
+       opacity: 0;
+    }
+      
+    67% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+
+    }
+
+ }
+
+.grad{
+    width: 100%;
+    height:70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    animation: fade 9s ease-in-out infinite alternate;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    height: 30rem;
+    z-index: 10;
+} 
+
+img:nth-of-type(1){
+    animation-delay: 0s;
+}
+
+img:nth-of-type(2){
+    animation-delay: 3s;
+}
+
+img:nth-of-type(3){
+    animation-delay: 6s;
+}
+
+.item{
+    background-color: rgb(244, 255, 241);
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: auto;
+    border-radius: 10px;
+    height:auto ;
+   
+    
+    
+}
+
+.item:hover{
+    transform: scale(1.1);
+    display:inline-block;
+    transition: 0.5s;
+    transition-property: all;
+
+  }
+
+
+.icon{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.legenda{
+    font-size: 15px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+section{
+    background-color: #fff;
+    border-style: hidden;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    box-shadow:0 0 10px rgba (0,0,0,0.1);
+    padding: 20px;
+    margin: 20px auto;
+    border-style: hidden;
+    border-radius: 8px;
+    width:auto;
+    height:auto;
+    box-shadow:0 0 10px rgba (0,0,0,0.1);
+    display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: flex-start;
+        height: auto;
+  
+    }
+
+    .pgmenu{
+    width: 200px;
+    height: 200px;
+}
+
+.container4{
+    background-color: rgb(218, 177, 73);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+}
+
+.item-cnt{
+    background-color: rgb(244, 255, 241);
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 10px;
+    height:auto ;
+    
+
+    }
+    
+
+    
